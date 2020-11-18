@@ -56,7 +56,7 @@ namespace Builder
 
         private void CreateRequirementButton_Click(object sender, EventArgs e)
         {
-            string errorMessage = "x";
+            string errorMessage = "x.";
             if (operationType == 0)
             {
                 Requirement newRequirement = new Requirement();
